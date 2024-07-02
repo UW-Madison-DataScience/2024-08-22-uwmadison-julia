@@ -106,6 +106,12 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% include lc/intro.html %}
 {% endif %}
 
+Designed for researchers and data enthusiasts, this lesson will cover the fundamentals of the Julia programming language, emphasizing its high-performance capabilities and ease of use for scientific computing. Participants will gain hands-on experience through guided exercises, preparing them to leverage Julia for their data analysis and computational tasks. Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for an overview of the topics covered.
+
+<h3 id="prereqs">Prerequisites</h3>
+- You need to understand the concepts of files and directories as well as arrays and indices.
+- It is beneficial to have some programming experience in another language.
+
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}

@@ -106,7 +106,7 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% include lc/intro.html %}
 {% endif %}
 
-Designed for researchers and data enthusiasts, this lesson will cover the fundamentals of the Julia programming language, emphasizing its high-performance capabilities and ease of use for scientific computing. Participants will gain hands-on experience through guided exercises, preparing them to leverage Julia for their data analysis and computational tasks. Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for an overview of the topics covered.
+Designed for researchers and data enthusiasts, this lesson will cover the fundamentals of the Julia programming language, emphasizing its high-performance capabilities and ease of use for scientific computing. Participants will gain hands-on experience through guided exercises, preparing them to leverage Julia for their data analysis and computational tasks. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for an overview of the topics covered.
 
 <h3 id="prereqs">Prerequisites</h3>
 - You need to understand the concepts of files and directories as well as arrays and indices.
@@ -385,7 +385,7 @@ of code below the Schedule `<h2>` header below with
 {% include lc/schedule.html %}
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
-Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
+Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
 {% endif %}
 
 {% comment %}
@@ -453,7 +453,7 @@ during the workshop.
 {% include lc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
-[the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
+<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson. Be sure to check your setup prior to the workshop — the earlier the better. If you need any assistance, please visit the Data Science Hub at <a href="https://datascience.wisc.edu/hub/#dropin">Coding Meetup</a> on Tue/Thur, 2:30-4:30pm.”
 
 {% endif %}

@@ -410,15 +410,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
+  To participate in the workshop,
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
@@ -456,5 +448,6 @@ during the workshop.
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
+to obtain the software and data you will need to follow the lesson. Be sure to check your setup prior to the workshop — the earlier the better. If you need any assistance, please visit the Data Science Hub at <a href="https://datascience.wisc.edu/hub/#dropin">Coding Meetup</a> on Tue/Thur, 2:30-4:30pm.”
+
 {% endif %}
